@@ -1,6 +1,7 @@
 /* Color Palette 
 Misty Rose #FFE4E1
 Levander Blush #FFF0F5
+Light Salmon #FFA07A
 */
 
 /* Global styles
@@ -54,6 +55,15 @@ a:hover {
     float: left;
 }
 
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #FFA07A;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
 /* Header and Footer */
 header, footer {
      background: #FFE4E1;
@@ -90,6 +100,11 @@ h3 ~ p {
     margin-left: 40px;
 }
 
+.download {
+  position: absolute;
+  bottom: 30;
+  right: 0;
+}
 
 /* Navigation
 -------------------------*/
